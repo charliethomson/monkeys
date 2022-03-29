@@ -1,0 +1,15 @@
+[package]
+name = "monkeys"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+lazy_static = "1.4.0"
+fastrand = "1.7.0"
+image = "0.24.1"
+glium = "0.31.0"
+
+[profile.release]
+debug = 1
